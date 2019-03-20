@@ -24,5 +24,6 @@ Nous auront en jeu plusieurs types de personnes : Le tricheur, le radin, le copi
 - L'aléatoire : Il commence par coopérer puis triche ou coopère aléatoirement
 
 Ce que nous allons rajouter du jeu de base sera une dyamique d'échange entre les contients
-Chaque continent contiendra des pourcentages de types de joueurs spécifiques. Les flux de joueurs sera le plus réalise possible, basé sur des pourcentages de migrations réels. Nous ferons fluctuer les gains et pertes entre les parties, l'argent de départ, ainsi que le nombre de manche, le pourcentage de population que l'on va supprimer et que l'on va dupliquer.
+Chaque continent contiendra des pourcentages de types de joueurs spécifiques et un nombre de joueurs différent. Les flux de joueurs sera le plus réalise possible, basé sur des pourcentages de migrations réels. Nous ferons fluctuer les gains et pertes entre les parties, l'argent de départ, ainsi que le nombre de manche, le pourcentage de population que l'on va supprimer et que l'on va dupliquer.
+Pour compenser la différence d'argent entre un continent avec beaucoup de personnes (et donc des joueurs avec beaucoup d'argent vu qu'ils ont fait beaucoup de parties) et un continent avec peu de personnes (donc des joueurs avec moins d'argent), on va dupliquer les personnes ayant le plus d'argent moyen par partie, et non les plus riches.
 
